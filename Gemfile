@@ -22,6 +22,8 @@ group :production do
   gem 'unicorn', '~> 4.8.3'
   # Add better Heroku support
   gem 'rails_12factor', '0.0.2'
+  # New Relic integration
+  gem 'newrelic_rpm', '~> 3.9.0.229'
 end
 
 group :development do
